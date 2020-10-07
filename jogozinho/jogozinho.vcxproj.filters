@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Graficos">
+      <UniqueIdentifier>{e6c6a02a-54f0-4d7e-8369-6986010eed1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graficos">
+      <UniqueIdentifier>{3fdbc963-4b79-4885-8cdb-7fe1d9ab5adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controle">
+      <UniqueIdentifier>{f5a0233b-9098-4f7d-80aa-b334a5f29a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controle">
+      <UniqueIdentifier>{a349fa3b-7b70-4b11-ae7b-61b9130e42a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sprite">
+      <UniqueIdentifier>{7fe706a9-82c8-400c-a5b1-55739f09a4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Nave">
+      <UniqueIdentifier>{8ed15fe4-de23-48ec-b3e7-f21017c613c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graficos\Camera">
+      <UniqueIdentifier>{a21c0575-348f-450e-b214-cdbfe01bd23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graficos\Camera">
+      <UniqueIdentifier>{ffec8c79-c4f3-4b3e-b8c9-3ca30dc1f887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Estados De Jogo">
+      <UniqueIdentifier>{3c516378-3d54-47ba-a370-c26372eb5a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Estados de Jogo">
+      <UniqueIdentifier>{7f9b081a-f7e9-4b29-8740-aa7137d2d827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mapa">
+      <UniqueIdentifier>{33963191-1729-4219-a432-ad179267ed3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mapa">
+      <UniqueIdentifier>{c86f5736-db88-4c48-add7-697dab933485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graficos\Particulas">
+      <UniqueIdentifier>{12fcf9e1-0758-451e-bb83-5557b1908020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Nave\Equipaveis">
+      <UniqueIdentifier>{ae49c37b-a0ed-423c-8f0b-9c90400152ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Windows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jogo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControleXB.cpp">
+      <Filter>Source Files\Controle</Filter>
+    </ClCompile>
+    <ClCompile Include="Teclado.cpp">
+      <Filter>Source Files\Controle</Filter>
+    </ClCompile>
+    <ClCompile Include="Nave.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="ControleDeSprite.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveVoando.cpp">
+      <Filter>Source Files\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="PortoDeVisao.cpp">
+      <Filter>Source Files\Graficos\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Graficos\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Fundo.cpp">
+      <Filter>Source Files\Mapa</Filter>
+    </ClCompile>
+    <ClCompile Include="Lixo.cpp">
+      <Filter>Source Files\Mapa</Filter>
+    </ClCompile>
+    <ClCompile Include="EstadoJogoRodando.cpp">
+      <Filter>Source Files\Estados de Jogo</Filter>
+    </ClCompile>
+    <ClCompile Include="EstadoM.cpp">
+      <Filter>Source Files\Estados de Jogo</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DGraficos.cpp">
+      <Filter>Source Files\Graficos</Filter>
+    </ClCompile>
+    <ClCompile Include="Fonte.cpp">
+      <Filter>Source Files\Graficos</Filter>
+    </ClCompile>
+    <ClCompile Include="Imagem.cpp">
+      <Filter>Source Files\Graficos</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagemSemFundo.cpp">
+      <Filter>Source Files\Graficos</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenciaDeImagens.cpp">
+      <Filter>Source Files\Graficos</Filter>
+    </ClCompile>
+    <ClCompile Include="Som.cpp">
+      <Filter>Source Files\Graficos</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapa.cpp">
+      <Filter>Source Files\Mapa</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagemComRetangulo.cpp">
+      <Filter>Source Files\Graficos</Filter>
+    </ClCompile>
+    <ClCompile Include="EstadoJogoMenu.cpp">
+      <Filter>Source Files\Estados de Jogo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Jogo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControleXB.h">
+      <Filter>Header Files\Controle</Filter>
+    </ClInclude>
+    <ClInclude Include="Teclado.h">
+      <Filter>Header Files\Controle</Filter>
+    </ClInclude>
+    <ClInclude Include="DadosSprite.h">
+      <Filter>Header Files\Nave</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Nave</Filter>
+    </ClInclude>
+    <ClInclude Include="Nave.h">
+      <Filter>Header Files\Nave</Filter>
+    </ClInclude>
+    <ClInclude Include="Estado.h">
+      <Filter>Header Files\Nave</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveParada.h">
+      <Filter>Header Files\Nave</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveCaindo.h">
+      <Filter>Header Files\Nave</Filter>
+    </ClInclude>
+    <ClInclude Include="ControleDeSprite.h">
+      <Filter>Header Files\Nave</Filter>
+    </ClInclude>
+    <ClInclude Include="PortoDeVisao.h">
+      <Filter>Header Files\Graficos\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Ret.h">
+      <Filter>Header Files\Graficos\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Graficos\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Fundo.h">
+      <Filter>Header Files\Mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveVoando.h">
+      <Filter>Header Files\Nave</Filter>
+    </ClInclude>
+    <ClInclude Include="Lixo.h">
+      <Filter>Header Files\Mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapa.h">
+      <Filter>Header Files\Mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="EstadoM.h">
+      <Filter>Header Files\Estados De Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="EstadoJogoRodando.h">
+      <Filter>Header Files\Estados De Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="DadosJogo.h">
+      <Filter>Header Files\Estados De Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DGraficos.h">
+      <Filter>Header Files\Graficos</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonte.h">
+      <Filter>Header Files\Graficos</Filter>
+    </ClInclude>
+    <ClInclude Include="Imagem.h">
+      <Filter>Header Files\Graficos</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagemSemFundo.h">
+      <Filter>Header Files\Graficos</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenciaDeImagens.h">
+      <Filter>Header Files\Graficos</Filter>
+    </ClInclude>
+    <ClInclude Include="Som.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagemComRetangulo.h">
+      <Filter>Header Files\Graficos</Filter>
+    </ClInclude>
+    <ClInclude Include="EstadoJogoMenu.h">
+      <Filter>Header Files\Estados De Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particula.h">
+      <Filter>Header Files\Graficos\Particulas</Filter>
+    </ClInclude>
+    <ClInclude Include="MaquinaDeParticulas.h">
+      <Filter>Header Files\Graficos\Particulas</Filter>
+    </ClInclude>
+    <ClInclude Include="BalaDeCanhao.h">
+      <Filter>Header Files\Nave\Equipaveis</Filter>
+    </ClInclude>
+    <ClInclude Include="Vetor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matematica.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Canhao.h">
+      <Filter>Header Files\Nave\Equipaveis</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipavel.h">
+      <Filter>Header Files\Nave\Equipaveis</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource.res">
+      <Filter>Resource Files</Filter>
+    </Resource>
+  </ItemGroup>
+</Project>
